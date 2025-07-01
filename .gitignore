@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv and config files
+.env
+.env.*
+
+# Migrations (optional, if using Alembic or Django-like ORM)
+migrations/
+*.egg-info/
+dist/
+build/
+
+# Coverage & test reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# FastAPI static or uploads (if used)
+static/uploads/
+media/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Replicate cache (if any)
+replicate/
+
+# Cache
+.cache/
